@@ -2,3 +2,19 @@
 - name: yum-update
   yum:
     update_cache: yes
+  
+- name: install-wget
+  package:
+    name: wget
+    state: present
+
+- name: install-java
+  package:
+    name: java-1.8.0-openjdk.x86_64
+    state: present
+
+- name: Create a directory
+  ansible.builtin.file:
+    path: /app
+    state: directory
+  notify: cd-to-dir
