@@ -1,4 +1,10 @@
-- name: cd-to-dir
-  command: cd /app
+# - name: tar-file
+#   ansible.builtin.unarchive:
+#     src: /app/nexus.tar.gz
+#     dest: /app
+#     remote_src: yes
+#   notify: rename
 
-# - name: 
+# - name: rename
+#   command: mv /app/nexus-3* /app/nexus
+
