@@ -28,6 +28,6 @@ Sonatype Nexus is one of the best open-source artifact management tools. It is s
 ```
 * Visit the following url` http://your_node_ip:8081 `
 * Log in using default username `admin`  and password found in `opt/sonatype-work/nexus3/admin.password`
+#### Your url get response
+![Screenshot from 2023-04-17 03-01-24](https://user-images.githubusercontent.com/46055709/232358872-36e84aeb-d7e4-4d19-99e0-8e2228c419df.png)
 
-### your url get response
-![CHEESE!](file:///home/el-nabawy/Pictures/Screenshots/Screenshot%20from%202023-04-17%2003-01-24.png)
